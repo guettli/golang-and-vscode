@@ -8,6 +8,8 @@ ctrl-` --> show/hide terminal.
 
 ctrl-e --> switch between recently used files.
 
+ctrl-space --> autocomplete (for example find the struct in a package and add the package name before the name)
+
 # Missing
 
 short-cut for re-run last test.
