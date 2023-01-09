@@ -20,4 +20,9 @@ history for selection
 
 recently changed locations.
 
+# Not solved yet
+
+Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
+
+
 
