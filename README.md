@@ -10,6 +10,8 @@ ctrl-e --> switch between recently used files.
 
 ctrl-space --> autocomplete (for example find the struct in a package and add the package name before the name)
 
+Bookmark plugin: ctrl-alt-k (set bookmarks), ctrl-alt-j (jump to bookmarks, multiple times to jump to other bookmarks)
+
 # Missing
 
 short-cut for re-run last test.
