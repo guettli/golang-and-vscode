@@ -12,6 +12,19 @@ ctrl-space --> autocomplete (for example find the struct in a package and add th
 
 Bookmark plugin: ctrl-alt-k (set bookmarks), ctrl-alt-j (jump to bookmarks, multiple times to jump to other bookmarks)
 
+You want to open a file from the terminal: `> code foo.go`
+
+"Go to Symbol in Workspac": ctrl-t
+
+"Go to file": ctrl+p
+
+"Show all commands": ctrl+shift+p
+
+# Plugins
+
+Go
+
+
 # Missing
 
 short-cut for re-run last test.
