@@ -24,6 +24,11 @@ You want to open a file from the terminal: `> code foo.go`
 
 Go
 
+# Config
+
+## Keybinding
+
+capsLock-p --> "Go: Test function at Cursor or Test Previous"
 
 # Missing
 
