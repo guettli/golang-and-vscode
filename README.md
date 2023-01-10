@@ -20,6 +20,8 @@ You want to open a file from the terminal: `> code foo.go`
 
 "Show all commands": ctrl+shift+p
 
+ctrl-. --> "Quick fix" (for example fill struct)
+
 # Plugins
 
 Go
