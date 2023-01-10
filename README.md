@@ -38,6 +38,8 @@ history for selection
 
 recently changed locations.
 
+Nice color theme. Overall vscode is a bit too colorful.
+
 # Not solved yet
 
 Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
