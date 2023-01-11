@@ -26,6 +26,22 @@ ctrl-. --> "Quick fix" (for example fill struct)
 
 Go
 
+# ripgrep in vscode
+
+in .bashrc:
+```
+if [[ "$TERM_PROGRAM" == 'vscode' ]]; then
+  alias 'rg'='rg --no-heading --column'
+fi
+```
+
+Then you get output like this:
+```
+foo/bar.go:33:43: ... your term
+```
+
+And `foo/bar.go:33` is a hyperlink you can click.
+
 # Config
 
 ## Keybinding
