@@ -46,11 +46,15 @@ And `foo/bar.go:33` is a hyperlink you can click.
 
 ## Keybinding
 
-capsLock-p --> "Go: Test function at Cursor or Test Previous"
+In general I try to use the keybindings of vscode. Here are some keybindings which I configured.
+
+ctrl-ö --> "Go: Test function at Cursor or Test Previous"
 
 # Missing
 
-short-cut for re-run last test.
+https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code
+
+https://stackoverflow.com/questions/75071292/vscode-move-go-code-type-function-to-other-file
 
 history for selection
 
