@@ -22,6 +22,9 @@ You want to open a file from the terminal: `> code foo.go`
 
 ctrl-. --> "Quick fix" (for example fill struct)
 
+ctrl-r --> Open recent Workspace. This is better than "File > Open Recent" because it provides autocomplete.
+
+
 # Plugins
 
 Go
