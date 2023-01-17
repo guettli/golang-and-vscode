@@ -24,6 +24,7 @@ ctrl-. --> "Quick fix" (for example fill struct)
 
 ctrl-r --> Open recent Workspace. This is better than "File > Open Recent" because it provides autocomplete.
 
+ctrl-s --> format and clean file. For example you get `.../foo_test.go:24:2: imported and not used: "github.com/somerepo/somepkg"` since you removed the usage of "somepkg", then you don't need to move up to the import statements. Just hit ctrl-s.
 
 # Plugins
 
