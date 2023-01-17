@@ -60,6 +60,8 @@ https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my
 
 https://stackoverflow.com/questions/75071292/vscode-move-go-code-type-function-to-other-file
 
+https://www.reddit.com/r/vscode/comments/10e7aoj/middle_button_paste_on_linux_only_works_after/
+
 history for selection
 
 recently changed locations.
