@@ -99,6 +99,7 @@ Copy+Paste does not work in the git-diff view of deleted lines: https://github.c
 
 # Related
 
+* [My vscode questions at Stackoverflow](https://stackoverflow.com/search?tab=newest&q=user%3a633961%20%5bvscode%5d)
 * [ten flying fingers](https://github.com/guettli/ten-flying-fingers)
 * [Thomas WOL: Working out Loud](https://github.com/guettli/wol)
 
