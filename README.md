@@ -14,11 +14,7 @@ Here are my notes which I wrote down while switching from an IntellJ based IDE t
 
 F2: refactor (rename Method)
 
-alt-shift-CursorLeft/Right move to previous places
-
 ctrl-` --> show/hide terminal.
-
-ctrl-e --> switch between recently used files. Good if you want to swith to the previous file quickly. Otherwise I prefer ctrl-p
 
 ctrl-space --> autocomplete (for example find the struct in a package and add the package name before the name)
 
@@ -26,29 +22,47 @@ Bookmark plugin: ctrl-alt-k (set bookmarks), ctrl-alt-j (jump to bookmarks, mult
 
 You want to open a file from the terminal: `> code foo.go`
 
-"Go to Symbol in Workspac": ctrl-t
-
-"Go to file": ctrl+p
-
 "Show all commands": ctrl+shift+p
 
 ctrl-. --> "Quick fix" (for example fill struct)
 
 ctrl-shift-p "open recent" --> Open recent Workspace. This is better than "File > Open Recent" because it provides autocomplete. By default this is mappend to ctrl-r, but I use ctrl-r for "Terminal: Run Recent Command".
 
+
+# Formating
+
 ctrl-s --> format and clean file. For example you get `.../foo_test.go:24:2: imported and not used: "github.com/somerepo/somepkg"` since you removed the usage of "somepkg", then you don't need to move up to the import statements. Just hit ctrl-s.
 
-ctrl-g --> goto line
+
+
+# Tests
 
 ctrl-shift-p "Go: Generate Unit Tests for File". But I don't use the table-driven test which vscode generates. I prefer boring straightforward tests, except I would have many rows in the table of the table-driven test. Related: [table-driven tests are overrated](https://www.reddit.com/r/golang/comments/10e9ebg/tabledriven_tests_are_overrated/)
 
-f4 --> goto next search result (for example after a search with ctrl-shift-f): Related https://stackoverflow.com/questions/75161780/go-to-first-match-of-ctrl-shift-f-search
-
-go to beginning of a function: click on last element in breadcrumb-bar, then ENTER. Or use `ctrl-shift-. ENTER` to open breadcrumb bar. 
 
 # Navigation
 
+"Go to file": ctrl+p
+
+
+ctrl-e --> switch between recently used files. Good if you want to swith to the previous file quickly. Otherwise I prefer ctrl-p
+
+
+ctrl-g --> goto line
+
+
+alt-shift-CursorLeft/Right move to previous places
+
+f4 --> goto next search result (for example after a search with ctrl-shift-f): Related https://stackoverflow.com/questions/75161780/go-to-first-match-of-ctrl-shift-f-search
+
+
+
 Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). Related: https://github.com/golang/vscode-go/discussions/1735
+
+go to beginning of a function: click on last element in breadcrumb-bar, then ENTER. Or use `ctrl-shift-. ENTER` to open breadcrumb bar. 
+
+
+"Go to Symbol in Workspac": ctrl-t. Not very useful, since it shows the symbols of all imported libraries. I usually don't find my code this way. Related: https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code
 
 # Plugins
 
