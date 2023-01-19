@@ -85,3 +85,8 @@ Copy+Paste does not work in the git-diff view of deleted lines: https://github.c
 
 
 
+# Related
+
+* [ten flying fingers](https://github.com/guettli/ten-flying-fingers)
+* [Thomas WOL: Working out Loud](https://github.com/guettli/wol)
+
