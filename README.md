@@ -63,6 +63,7 @@ In general I try to use the keybindings of vscode. Here are some keybindings whi
 ctrl-ö --> "Go: Test function at Cursor or Test Previous"
 
 ctrl-r --> "Terminal: Run Recent Command". This is the same keybinding like searching backwards in the shell history :-)
+Example: run `make test`.
 
 # Missing
 
