@@ -18,7 +18,7 @@ alt-shift-CursorLeft/Right move to previous places
 
 ctrl-` --> show/hide terminal.
 
-ctrl-e --> switch between recently used files.
+ctrl-e --> switch between recently used files. Good if you want to swith to the previous file quickly. Otherwise I prefer ctrl-p
 
 ctrl-space --> autocomplete (for example find the struct in a package and add the package name before the name)
 
