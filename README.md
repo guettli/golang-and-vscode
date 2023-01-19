@@ -32,6 +32,8 @@ ctrl-shift-p "Go: Generate Unit Tests for File". But I don't use the table-drive
 
 f4 --> goto next search result (for example after a search with ctrl-shift-f): Related https://stackoverflow.com/questions/75161780/go-to-first-match-of-ctrl-shift-f-search
 
+go to beginning of a function: click on last element in breadcrumb-bar, then ENTER.
+
 # Plugins
 
 Go
