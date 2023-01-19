@@ -22,7 +22,7 @@ You want to open a file from the terminal: `> code foo.go`
 
 ctrl-. --> "Quick fix" (for example fill struct)
 
-ctrl-r --> Open recent Workspace. This is better than "File > Open Recent" because it provides autocomplete.
+ctrl-shift-p "open recent" --> Open recent Workspace. This is better than "File > Open Recent" because it provides autocomplete. By default this is mappend to ctrl-r, but I use ctrl-r for "Terminal: Run Recent Command".
 
 ctrl-s --> format and clean file. For example you get `.../foo_test.go:24:2: imported and not used: "github.com/somerepo/somepkg"` since you removed the usage of "somepkg", then you don't need to move up to the import statements. Just hit ctrl-s.
 
@@ -56,11 +56,13 @@ And `foo/bar.go:33` is a hyperlink you can click.
 
 # Config
 
-## Keybinding
+## Custom Keybindings
 
 In general I try to use the keybindings of vscode. Here are some keybindings which I configured.
 
 ctrl-ö --> "Go: Test function at Cursor or Test Previous"
+
+ctrl-r --> "Terminal: Run Recent Command". This is the same keybinding like searching backwards in the shell history :-)
 
 # Missing
 
