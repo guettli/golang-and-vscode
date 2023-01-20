@@ -29,7 +29,7 @@ ctrl-. --> "Quick fix" (for example fill struct)
 ctrl-shift-p "open recent" --> Open recent Workspace. This is better than "File > Open Recent" because it provides autocomplete. By default this is mappend to ctrl-r, but I use ctrl-r for "Terminal: Run Recent Command".
 
 
-# Formating
+# Formatting
 
 ctrl-s --> format and clean file. For example you get `.../foo_test.go:24:2: imported and not used: "github.com/somerepo/somepkg"` since you removed the usage of "somepkg", then you don't need to move up to the import statements. Just hit ctrl-s.
 
@@ -63,6 +63,8 @@ go to beginning of a function: click on last element in breadcrumb-bar, then ENT
 
 
 "Go to Symbol in Workspac": ctrl-t. Not very useful, since it shows the symbols of all imported libraries. I usually don't find my code this way. Related: https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code
+
+After a search the searched term is still highlighted. I use ctrl-b to hide the panel on the left side, which removes the highlighting. Maybe there is an alternative solution?
 
 # Plugins
 
