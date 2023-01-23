@@ -116,6 +116,9 @@ Nice color theme. Overall vscode is a bit too colorful.
 Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
 
 
+# TODO
+
+* ctrl-t to open new browser tab. I don't like to keep a state in my head. I am very used to open a new browser tab with ctrl-t. It should work in vscode, too.
 
 # Related
 
