@@ -70,6 +70,15 @@ After a search the searched term is still highlighted. I use ctrl-b to hide the 
 
 Go
 
+# settings.json
+
+```
+    "gopls": {
+        "importShortcut": "Definition"
+    }
+```
+--> if you click on an import line (for example `myname "github.com/foo/bar")`) you get to the code of "foo/bar" in vscode. Don't open the browser.  Related: [Don't Open Imports in the Browser](https://dominikbraun.io/blog/vs-code-go-dont-open-imports-in-browser/)
+
 # ripgrep in vscode
 
 in .bashrc:
