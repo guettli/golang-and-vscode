@@ -144,6 +144,9 @@ I would like to have a better visual differentiation between my code and code fr
 
 * alt-shift-left/right for going to the previous locations is too far away. I need to move my pointer fingers away from F and J. Something I try to avoid.
 
+My cursor is on the name of a method which implements an interface. I want to see the docstring of this method of the interface. How to get to navigate to the method signature of the interface?
+
+
 # Related
 
 * [Featurse of Go Plugin for vscode](https://github.com/golang/vscode-go/blob/master/docs/features.md) including short screencasts.
