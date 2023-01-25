@@ -124,6 +124,7 @@ Nice color theme. Overall vscode is a bit too colorful.
 
 Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
 
+I would like to have a better visual differentiation between my code and code from third party packages. https://stackoverflow.com/questions/75181580/higlight-files-which-are-not-from-my-repository
 
 # TODO
 
