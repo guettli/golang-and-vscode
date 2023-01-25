@@ -106,7 +106,11 @@ ctrl-ö --> "Go: Test function at Cursor or Test Previous"
 ctrl-r --> "Terminal: Run Recent Command". This is the same keybinding like searching backwards in the shell history :-)
 Example: run `make test`.
 
-# Support for Yaml: autoocomplete
+## GitLens
+
+Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
+
+# Support for Yaml: autocomplete
 
 I am editing a file called golangci.yaml.
 
