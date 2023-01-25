@@ -138,6 +138,8 @@ I would like to have a better visual differentiation between my code and code fr
 
 * ctrl-t to open new browser tab. I don't like to keep a state in my head. I am very used to open a new browser tab with ctrl-t. It should work in vscode, too.
 
+* alt-shift-left/right for going to the previous locations is too far away. I need to move my pointer fingers away from F and J. Something I try to avoid.
+
 # Related
 
 * [Featurse of Go Plugin for vscode](https://github.com/golang/vscode-go/blob/master/docs/features.md) including short screencasts.
