@@ -106,6 +106,14 @@ ctrl-ö --> "Go: Test function at Cursor or Test Previous"
 ctrl-r --> "Terminal: Run Recent Command". This is the same keybinding like searching backwards in the shell history :-)
 Example: run `make test`.
 
+# Support for Yaml: autoocomplete
+
+I am editing a file called golangci.yaml.
+
+The editor vscode provides autocomplete. It somehow seems to understand the format.
+
+That's magic und very helpful.
+
 # Missing
 
 https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code
