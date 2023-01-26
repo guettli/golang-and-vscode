@@ -110,6 +110,9 @@ Example: run `make test`.
 
 Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
 
+Above setting did not remove all pop-ups. I disabled the GitLens plugin.
+
+
 # Support for Yaml: autocomplete
 
 I am editing a file called golangci.yaml.
