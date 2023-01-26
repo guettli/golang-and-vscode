@@ -149,6 +149,7 @@ I would like to have a better visual differentiation between my code and code fr
 
 My cursor is on the name of a method which implements an interface. I want to see the docstring of this method of the interface. How to get to navigate to the method signature of the interface?
 
+Search in a directory which is outside my workspace: https://stackoverflow.com/questions/75244211/vscode-search-in-a-directory-which-is-outside-the-workspace
 
 # Related
 
