@@ -57,7 +57,6 @@ f4 --> goto next search result (for example after a search with ctrl-shift-f): R
 
 
 
-Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). In Goland you have icons near the line-numbers to jump up/down. This could be improved. Related: https://github.com/golang/vscode-go/discussions/1735
 
 go to beginning of a function: click on last element in breadcrumb-bar, then ENTER. Or use `ctrl-shift-. ENTER` to open breadcrumb bar. 
 
@@ -150,6 +149,8 @@ I would like to have a better visual differentiation between my code and code fr
 My cursor is on the name of a method which implements an interface. I want to see the docstring of this method of the interface. How to get to navigate to the method signature of the interface?
 
 Search in a directory which is outside my workspace: https://stackoverflow.com/questions/75244211/vscode-search-in-a-directory-which-is-outside-the-workspace
+
+Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). In Goland you have icons near the line-numbers to jump up/down. This could be improved. Related: https://github.com/golang/vscode-go/issues/2628
 
 # Related
 
