@@ -71,7 +71,8 @@ After a search the searched term is still highlighted. I use ctrl-b to hide the 
 
 [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) YAML Language Support by Red Hat, with built-in Kubernetes syntax support (uses [prettier](https://prettier.io/) under the hood).
 
-[Highlight Files](https://marketplace.visualstudio.com/items?itemName=ArturoDent.highlight-files) I want to see immediately if a file is outside my workspace. This plugin changes the color of the tab of a file. You add a badge to the tab, too. I use the camping unicode symbol: 🏕
+[Highlight Files](https://marketplace.visualstudio.com/items?itemName=ArturoDent.highlight-files) I want to see immediately if a file is outside my workspace. This plugin changes the color of the tab of a file. You add a badge to the tab, too. I use the camping unicode symbol: 🏕. Related [StackOverflow question](https://stackoverflow.com/questions/75244211/vscode-search-in-a-directory-which-is-outside-the-workspace).
+
 
 # settings.json
 
@@ -151,8 +152,6 @@ I would like to have a better visual differentiation between my code and code fr
 * alt-shift-left/right for going to the previous locations is too far away. I need to move my pointer fingers away from F and J. Something I try to avoid.
 
 My cursor is on the name of a method which implements an interface. I want to see the docstring of this method of the interface. How to get to navigate to the method signature of the interface?
-
-Search in a directory which is outside my workspace: https://stackoverflow.com/questions/75244211/vscode-search-in-a-directory-which-is-outside-the-workspace
 
 Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). In Goland you have icons near the line-numbers to jump up/down. This could be improved. Related: https://github.com/golang/vscode-go/issues/2628
 
