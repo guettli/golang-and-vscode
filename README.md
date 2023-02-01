@@ -71,6 +71,8 @@ After a search the searched term is still highlighted. I use ctrl-b to hide the 
 
 [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) YAML Language Support by Red Hat, with built-in Kubernetes syntax support (uses [prettier](https://prettier.io/) under the hood).
 
+[Highlight Files](https://marketplace.visualstudio.com/items?itemName=ArturoDent.highlight-files) I want to see immediately if a file is outside my workspace. This plugin changes the color of the tab of a file. You add a badge to the tab, too. I use the camping unicode symbol: 🏕
+
 # settings.json
 
 ```
