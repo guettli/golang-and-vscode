@@ -135,7 +135,7 @@ https://www.reddit.com/r/vscode/comments/10e7aoj/middle_button_paste_on_linux_on
 
 history for selection
 
-recently changed locations.
+recently changed locations: https://stackoverflow.com/questions/72648730/recent-locations-in-vscode-like-in-intellij
 
 Nice color theme. Overall vscode is a bit too colorful.
 
