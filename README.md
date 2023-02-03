@@ -29,6 +29,22 @@ ctrl-. --> "Quick fix" (for example fill struct)
 ctrl-shift-p "open recent" --> Open recent Workspace. This is better than "File > Open Recent" because it provides autocomplete. By default this is mappend to ctrl-r, but I use ctrl-r for "Terminal: Run Recent Command".
 
 
+# Search and Replace in one file
+
+ctrl-h and then enter the old and the new term.
+
+Then it is important which text input field has the focus.
+
+If the old-string has the input, ENTER will skip to the next match.
+
+If the new-string has the input, then ENTER will change the current part in the file.
+
+If you want to undo your change, you need to press ESC first.
+
+Not perfect. If someone has a better solution, please let me know.
+
+
+
 # Formatting
 
 ctrl-s --> format and clean file. For example you get `.../foo_test.go:24:2: imported and not used: "github.com/somerepo/somepkg"` since you removed the usage of "somepkg", then you don't need to move up to the import statements. Just hit ctrl-s.
