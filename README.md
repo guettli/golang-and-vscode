@@ -161,6 +161,8 @@ Copy+Paste does not work in the git-diff view of deleted lines: https://github.c
 
 I would like to have a better visual differentiation between my code and code from third party packages. https://stackoverflow.com/questions/75181580/higlight-files-which-are-not-from-my-repository
 
+Navigation in packages outside the current workspace does not work. I can open the Go file, but symbols which are outside the current file are not known. This means vscode underlines them with red color and ctrl-click does not work :-(
+
 # TODO
 
 * ctrl-t to open new browser tab. I don't like to keep a state in my head. I am very used to open a new browser tab with ctrl-t. It should work in vscode, too.
