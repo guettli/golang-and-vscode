@@ -156,6 +156,8 @@ recently changed locations: https://stackoverflow.com/questions/72648730/recent-
 
 Nice color theme. Overall vscode is a bit too colorful.
 
+Developing Go code means working with generated files in most cases. It would be great if vscode could display files which were generated with a different background color. Rule of thubmb: If the file contains `DO NOT EDIT`, then the background color should be different. TODO: try to find a solution.
+
 # Not solved yet
 
 Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
