@@ -89,6 +89,7 @@ After a search the searched term is still highlighted. I use ctrl-b to hide the 
 
 [Highlight Files](https://marketplace.visualstudio.com/items?itemName=ArturoDent.highlight-files) I want to see immediately if a file is outside my workspace. This plugin changes the color of the tab of a file. You add a badge to the tab, too. I use the camping unicode symbol: 🏕. Related [StackOverflow question](https://stackoverflow.com/questions/75244211/vscode-search-in-a-directory-which-is-outside-the-workspace).
 
+[Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
 
 # settings.json
 
