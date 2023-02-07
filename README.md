@@ -86,7 +86,7 @@ After a search the searched term is still highlighted. I use ctrl-b to hide the 
 
 [Go](https://marketplace.visualstudio.com/items?itemName=golang.go) Official Plugin, provided by the Go team at Google.
 
-[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) I don't use it for clone/switch/commit/push, but I use it for comparing the corrent code with the previous state. See [Revision Navigation](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens#revision-navigation. [Be sure to disable the distracting popUps](https://stackoverflow.com/a/58039473/633961)
+[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) I don't use it for clone/switch/commit/push, but I use it for comparing the corrent code with the previous state. See [Revision Navigation](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens#revision-navigation). [Be sure to disable the distracting popUps](https://stackoverflow.com/a/58039473/633961). It is a bit like "Git History for Selection" in Intellij.
 
 [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) YAML Language Support by Red Hat, with built-in Kubernetes syntax support (uses [prettier](https://prettier.io/) under the hood).
 
@@ -152,9 +152,6 @@ https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my
 https://stackoverflow.com/questions/75071292/vscode-move-go-code-type-function-to-other-file
 
 https://www.reddit.com/r/vscode/comments/10e7aoj/middle_button_paste_on_linux_only_works_after/
-
-history for selection: https://www.reddit.com/r/vscode/comments/10vywju/git_history_for_selection/
-GitLens "Revision Navigation" https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens#revision-navigation
 
 
 recently changed locations: https://stackoverflow.com/questions/72648730/recent-locations-in-vscode-like-in-intellij
