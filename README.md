@@ -86,6 +86,8 @@ After a search the searched term is still highlighted. I use ctrl-b to hide the 
 
 [Go](https://marketplace.visualstudio.com/items?itemName=golang.go) Official Plugin, provided by the Go team at Google.
 
+[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) I don't use it for clone/switch/commit/push, but I use it for comparing the corrent code with the previous state. See [Revision Navigation](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens#revision-navigation. [Be sure to disable the distracting popUps](https://stackoverflow.com/a/58039473/633961)
+
 [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) YAML Language Support by Red Hat, with built-in Kubernetes syntax support (uses [prettier](https://prettier.io/) under the hood).
 
 [Highlight Files](https://marketplace.visualstudio.com/items?itemName=ArturoDent.highlight-files) I want to see immediately if a file is outside my workspace. This plugin changes the color of the tab of a file. You add a badge to the tab, too. I use the camping unicode symbol: 🏕. Related [StackOverflow question](https://stackoverflow.com/questions/75244211/vscode-search-in-a-directory-which-is-outside-the-workspace).
