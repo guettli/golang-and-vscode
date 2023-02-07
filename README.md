@@ -151,7 +151,7 @@ https://stackoverflow.com/questions/75071292/vscode-move-go-code-type-function-t
 
 https://www.reddit.com/r/vscode/comments/10e7aoj/middle_button_paste_on_linux_only_works_after/
 
-history for selection
+history for selection: https://www.reddit.com/r/vscode/comments/10vywju/git_history_for_selection/
 
 recently changed locations: https://stackoverflow.com/questions/72648730/recent-locations-in-vscode-like-in-intellij
 
