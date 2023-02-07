@@ -28,6 +28,7 @@ ctrl-. --> "Quick fix" (for example fill struct)
 
 ctrl-shift-p "open recent" --> Open recent Workspace. This is better than "File > Open Recent" because it provides autocomplete. By default this is mappend to ctrl-r, but I use ctrl-r for "Terminal: Run Recent Command".
 
+Jump from a method on an interface to the implementation: ctrl-F12 (or context-menu "Go to Implementations")
 
 # Search and Replace in one file
 
