@@ -160,6 +160,8 @@ Nice color theme. Overall vscode is a bit too colorful.
 
 Developing Go code means working with generated files in most cases. It would be great if vscode could display files which were generated with a different background color. Rule of thubmb: If the file contains `DO NOT EDIT`, then the background color should be different. TODO: try to find a solution.
 
+From method signature of an interface: Show all methods which implement this signature. At the moment clicking on the signature shows all places where this method gets used. But I am often looking for the list of implementations.
+
 # Not solved yet
 
 Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
