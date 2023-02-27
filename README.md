@@ -106,6 +106,8 @@ I like to highlight the current line a bit more:
     },
 ```
 
+But highlighting is gone, if there is a selection: https://stackoverflow.com/questions/75582447/vscode-highlight-line-even-if-there-is-a-selection
+
 # Gopls
 Gopls is the Go language server which gets used by vscode, vim and most other editors.
 
