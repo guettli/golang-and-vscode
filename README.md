@@ -96,6 +96,19 @@ After a search the searched term is still highlighted. I use ctrl-b to hide the 
 
 # settings.json
 
+# Colors
+
+I like to highlight the current line a bit more:
+
+```
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#213211",
+    },
+```
+
+# Gopls
+Gopls is the Go language server which gets used by vscode, vim and most other editors.
+
 ```
     "gopls": {
         "importShortcut": "Definition"
