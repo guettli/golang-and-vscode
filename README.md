@@ -177,6 +177,9 @@ Developing Go code means working with generated files in most cases. It would be
 
 From method signature of an interface: Show all methods which implement this signature. At the moment clicking on the signature shows all places where this method gets used. But I am often looking for the list of implementations.
 
+Floating windows (like detach terminal into a second window) is not possible. See [#10121](https://github.com/microsoft/vscode/issues/10121)
+Now my favorite setup (one display for the code, one display for the output of the tests) is not possible: https://stackoverflow.com/questions/75592496/show-output-of-test-on-second-monitor
+
 # Not solved yet
 
 Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
