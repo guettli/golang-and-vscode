@@ -180,6 +180,8 @@ From method signature of an interface: Show all methods which implement this sig
 Floating windows (like detach terminal into a second window) is not possible. See [#10121](https://github.com/microsoft/vscode/issues/10121)
 Now my favorite setup (one display for the code, one display for the output of the tests) is not possible: https://stackoverflow.com/questions/75592496/show-output-of-test-on-second-monitor
 
+Unused variables are underlined with red color. This is confusing, since while you write code, it looks like there is an error. But there is no error, you just have not written the next line yet. I am happy that other agree see [#2285](https://github.com/golang/vscode-go/issues/2285).
+
 # Not solved yet
 
 Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
