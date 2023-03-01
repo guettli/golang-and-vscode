@@ -18,7 +18,7 @@ ctrl-` --> show/hide terminal.
 
 ctrl-space --> autocomplete (for example find the struct in a package and add the package name before the name) [docs](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features)
 
-Bookmark plugin: ctrl-alt-k (set bookmarks), ctrl-alt-j (jump to bookmarks, multiple times to jump to other bookmarks)
+[Bookmark plugin](https://github.com/alefragnani/vscode-bookmarks): ctrl-alt-k (set bookmarks), ctrl-alt-j (jump to bookmarks, multiple times to jump to other bookmarks). You plan a short pair-programming session because you want to discuss some parts of the code? Be prepaired! Make bookmarks of the relevant parts of the code. 
 
 You want to open a file from the terminal: `> code foo.go`
 
