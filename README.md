@@ -160,6 +160,20 @@ The editor vscode provides autocomplete. It somehow seems to understand the form
 
 That's magic und very helpful.
 
+# Terminal
+
+Using the terminal of vscode has the benefit, that output containing filenames are hyperlinks which you use to "jump" to the
+correspondig file.
+
+You can use ctrl-f to search in the text of the terminal.
+
+If you run a command again and again, you might be only interested in the output of the last run of the command.
+
+You can use the Linux shell command `reset` to clear the terminal before starting the command.
+
+Example: `rest; go test ./mydir`
+
+
 # Missing
 
 https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code
@@ -181,8 +195,6 @@ Floating windows (like detach terminal into a second window) is not possible. Se
 Now my favorite setup (one display for the code, one display for the output of the tests) is not possible: https://stackoverflow.com/questions/75592496/show-output-of-test-on-second-monitor
 
 Unused variables are underlined with red color. This is confusing, since while you write code, it looks like there is an error. But there is no error, you just have not written the next line yet. I am happy that other agree see [#2285](https://github.com/golang/vscode-go/issues/2285).
-
-# Not solved yet
 
 Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
 
