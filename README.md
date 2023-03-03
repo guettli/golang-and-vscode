@@ -94,6 +94,8 @@ After a search the searched term is still highlighted. I use ctrl-b to hide the 
 
 [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
 
+[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) This extension searches your workspace for comment tags like TODO and FIXME, and displays them in a tree view in the activity bar.
+
 # settings.json
 
 # Colors
