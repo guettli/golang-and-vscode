@@ -56,6 +56,14 @@ ctrl-s --> format and clean file. For example you get `.../foo_test.go:24:2: imp
 
 ctrl-shift-p "Go: Generate Unit Tests for File". But I don't use the table-driven test which vscode generates. I prefer boring straightforward tests, except I would have many rows in the table of the table-driven test. Related: [table-driven tests are overrated](https://www.reddit.com/r/golang/comments/10e9ebg/tabledriven_tests_are_overrated/)
 
+# Coverage
+
+The docs [vscode-go coverage](https://github.com/golang/vscode-go/wiki/features#code-coverage).
+
+If you have created a `cover.out` file, then you just need to use `Go: Toggle Test Coverage in Current Package`.
+
+Missing up to now: A way to see which files has the most uncovered lines. [Question at Reddit](https://www.reddit.com/r/golang/comments/11gwuj2/how_to_see_which_lines_has_the_most_uncovered/)
+
 
 # Navigation
 
