@@ -90,6 +90,14 @@ go to beginning of a function: click on last element in breadcrumb-bar, then ENT
 
 After a search the searched term is still highlighted. I use ctrl-b to hide the panel on the left side, which removes the highlighting. Maybe there is an alternative solution?
 
+# Git
+
+I use the GitLens plugin.
+
+mark some lines in vscode and create a hyperlink to Github which highlight these lines via `ctrl-p "GitLens: Copy Remote File URL"`. 
+Handy if you want to point someone to a part of a file.
+
+
 # Plugins
 
 [Go](https://marketplace.visualstudio.com/items?itemName=golang.go) Official Plugin, provided by the Go team at Google.
