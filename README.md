@@ -112,6 +112,8 @@ Handy if you want to point someone to a part of a file.
 
 [TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) This extension searches your workspace for comment tags like TODO and FIXME, and displays them in a tree view in the activity bar.
 
+[Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff) Compare selected lines with the clipboard (and other features).
+
 # settings.json
 
 # Colors
