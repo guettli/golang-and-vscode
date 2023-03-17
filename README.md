@@ -34,6 +34,8 @@ Jump from a method on an interface to the implementation: ctrl-F12 (or context-m
 
 ctrl-h and then enter the old and the new term.
 
+And now I want to interactively replace some strings and some not **without using the mouse**.
+
 Then it is important which text input field has the focus.
 
 If the old-string has the input, ENTER will skip to the next match.
