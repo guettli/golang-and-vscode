@@ -138,9 +138,13 @@ Gopls is the Go language server which gets used by vscode, vim and most other ed
         "importShortcut": "Definition"
     }
 ```
+
 --> if you click on an import line (for example `myname "github.com/foo/bar")`) you get to the code of "foo/bar" in vscode. Don't open the browser.  Related: [Don't Open Imports in the Browser](https://dominikbraun.io/blog/vs-code-go-dont-open-imports-in-browser/)
 
 # ripgrep in vscode
+
+I want to use `rg` ([ripgrep](https://github.com/BurntSushi/ripgrep)) in a vscode terminal, and the matches should be hyperlinks, so that
+I can easily jump to the corresponding line in the file.
 
 in .bashrc:
 ```
@@ -174,13 +178,17 @@ Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too m
 Above setting did not remove all pop-ups. I disabled the GitLens plugin.
 
 
-# Support for Yaml: autocomplete
+# Support for Yaml/JSON: autocomplete
 
 I am editing a file called golangci.yaml.
 
 The editor vscode provides autocomplete. It somehow seems to understand the format.
 
+Some for Kubernetes YAML files: Autocomplete and documentation via hover.
+
 That's magic und very helpful.
+
+Vscode uses [json schema](https://json-schema.org/) for this magic.
 
 # Terminal
 
@@ -209,7 +217,7 @@ recently changed locations: https://stackoverflow.com/questions/72648730/recent-
 
 Nice color theme. Overall vscode is a bit too colorful.
 
-Developing Go code means working with generated files in most cases. It would be great if vscode could display files which were generated with a different background color. Rule of thubmb: If the file contains `DO NOT EDIT`, then the background color should be different. TODO: try to find a solution.
+Developing Go code means working with generated files in most cases. It would be great if vscode could display files which were generated with a different background color. Rule of thumb: If the file contains `DO NOT EDIT`, then the background color should be different. TODO: try to find a solution.
 
 From method signature of an interface: Show all methods which implement this signature. At the moment clicking on the signature shows all places where this method gets used. But I am often looking for the list of implementations.
 
