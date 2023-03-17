@@ -4,7 +4,7 @@
 
 I was born 1976 and I write software since I am 12 years old.
 
-Seven years ago I switched from Emacs to PyCharm.
+Seven years ago (2016) I switched from Emacs to PyCharm.
 
 In 2022 I learned Go, which is now part of my daily work as Cloud Engineer at [Syself](https://syself.com/).
 
