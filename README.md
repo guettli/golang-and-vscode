@@ -201,7 +201,7 @@ If you run a command again and again, you might be only interested in the output
 
 You can use the Linux shell command `reset` to clear the terminal before starting the command.
 
-Example: `rest; go test ./mydir`
+Example: `reset; go test ./mydir`
 
 
 # Missing
