@@ -46,6 +46,10 @@ If you want to undo your change, you need to press ESC first.
 
 Not perfect. If someone has a better solution, please let me know.
 
+# Searching in a sub-directory
+
+If you select a directory in the tree-view, I see no easy way to search only in this sub-directory. Missing up to now. See https://stackoverflow.com/questions/75798947/vscode-search-in-sub-directory-only
+
 
 
 # Formatting
