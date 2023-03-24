@@ -46,6 +46,8 @@ If you want to undo your change, you need to press ESC first.
 
 Not perfect. If someone has a better solution, please let me know.
 
+Search in a sub-folder needs a special short-cut (in Intellij is is easier, since it the same like global search): alt+shift+f (Related: [sub-folder search in vscode](https://stackoverflow.com/questions/75831555/vscode-how-to-make-ctrl-shift-f-make-search-in-a-sub-directory-like-alt-shift))
+
 # Searching in a sub-directory
 
 If you select a directory in the tree-view, I see no easy way to search only in this sub-directory. Missing up to now. See https://stackoverflow.com/questions/75798947/vscode-search-in-sub-directory-only
