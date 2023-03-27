@@ -122,6 +122,8 @@ Handy if you want to point someone to a part of a file.
 
 [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff) Compare selected lines with the clipboard (and other features).
 
+[Shellcheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) a linter for Shell scripts.
+
 # settings.json
 
 # Colors
