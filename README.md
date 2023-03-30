@@ -240,6 +240,8 @@ I would like to have a better visual differentiation between my code and code fr
 
 Navigation in packages outside the current workspace does not work. I can open the Go file, but symbols which are outside the current file are not known. This means vscode underlines them with red color and ctrl-click does not work :-(
 
+Solving merge-conflicts in vscode: [No detailed diff is visible](https://stackoverflow.com/questions/75888480/vscode-no-detailed-diff-while-merging)
+
 # TODO
 
 * ctrl-t to open new browser tab. I don't like to keep a state in my head. I am very used to open a new browser tab with ctrl-t. It should work in vscode, too.
