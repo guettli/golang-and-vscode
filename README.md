@@ -124,6 +124,8 @@ Handy if you want to point someone to a part of a file.
 
 [Shellcheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) a linter for Shell scripts.
 
+[Duplicated code](https://marketplace.visualstudio.com/items?itemName=paulomenezes.duplicated-code) uses [jscpd](https://github.com/kucherenko/jscpd).
+
 # settings.json
 
 # Colors
