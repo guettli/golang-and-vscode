@@ -128,7 +128,7 @@ Handy if you want to point someone to a part of a file.
 
 # settings.json
 
-# Colors
+## Colors
 
 I like to highlight the current line a bit more:
 
@@ -139,6 +139,16 @@ I like to highlight the current line a bit more:
 ```
 
 But highlighting is gone, if there is a selection: https://stackoverflow.com/questions/75582447/vscode-highlight-line-even-if-there-is-a-selection
+
+## ctrl-b (hide side bar) should work in terminal, too
+
+Add this to your settings.json:
+```
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.toggleSidebarVisibility"
+    ]
+```    
+Source: https://github.com/microsoft/vscode/issues/117150#issuecomment-782853808
 
 # Gopls
 Gopls is the Go language server which gets used by vscode, vim and most other editors.
