@@ -225,6 +225,12 @@ Example: `reset; go test ./mydir`
 
 You can copy the content of the terminal via right-click "Select All", then right-click "Copy".
 
+By default there is no short-cut to show the terminal in fullscreen mode. `ctrl-j` shows/hides the terminal, but does not toggle to fullscreen.
+
+You can customize your keyboard shortcuts (ctrl-p "keyb..."), and then search for "max panel" (View: Toggle Maximized Panel) and set the short-cut `ctrl-shift-j`.
+
+Mnemoric: "(j)ump" to the terminal.
+
 # Missing
 
 https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code
