@@ -223,6 +223,7 @@ You can use the Linux shell command `reset` to clear the terminal before startin
 
 Example: `reset; go test ./mydir`
 
+You can copy the content of the terminal via right-click "Select All", then right-click "Copy".
 
 # Missing
 
