@@ -271,9 +271,18 @@ My cursor is on the name of a method which implements an interface. I want to se
 
 Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). In Goland you have icons near the line-numbers to jump up/down. This could be improved. Related: https://github.com/golang/vscode-go/issues/2628
 
+# Introductions to Go 
+
+https://go.dev/tour/
+
+https://gobyexample.com/
+
+https://quii.gitbook.io/learn-go-with-tests
+
+
 # Related
 
-* [Featurse of Go Plugin for vscode](https://github.com/golang/vscode-go/blob/master/docs/features.md) including short screencasts.
+* [Features of Go Plugin for vscode](https://github.com/golang/vscode-go/blob/master/docs/features.md) including short screencasts.
 * [My vscode questions at Stackoverflow](https://stackoverflow.com/search?tab=newest&q=user%3a633961%20%5bvscode%5d)
 * [ten flying fingers](https://github.com/guettli/ten-flying-fingers)
 * [Thomas WOL: Working out Loud](https://github.com/guettli/wol)
