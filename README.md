@@ -98,6 +98,14 @@ go to beginning of a function: click on last element in breadcrumb-bar, then ENT
 
 After a search the searched term is still highlighted. I use ctrl-b to hide the panel on the left side, which removes the highlighting. Maybe there is an alternative solution?
 
+# Move Primary Side Bar Right
+
+From time to time I use ctrl-b to hide the primary side bar, so that I have the full width for the code. With the default (Primary side bar on the left side), this make the code "jump" from the middle to the left side. 
+
+This feels uncomfortable. I would like to have the code on the same place on the screen (with or without primary side bar).
+
+
+
 # Git
 
 I use the GitLens plugin.
