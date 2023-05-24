@@ -183,12 +183,16 @@ fi
 
 Then you get output like this:
 ```
-foo/bar.go:33:43: ... your term
+foo/bar.go:33:7: ... your term
 ```
 
-And `foo/bar.go:33` is a hyperlink you can click.
+33 is the line number, and 7 is the column.
 
-# Config
+And `foo/bar.go:33:7:` is a hyperlink you can click.
+
+# find ... | xargs grep -n
+
+To get hyperlinks to the found lines I use `find ... | xargs grep -n`. This way `grep` prints the line number behind the file name.
 
 ## Custom Keybindings
 
