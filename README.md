@@ -273,6 +273,8 @@ Navigation in packages outside the current workspace does not work. I can open t
 
 Solving merge-conflicts in vscode: [No detailed diff is visible](https://stackoverflow.com/questions/75888480/vscode-no-detailed-diff-while-merging)
 
+[Allow merging from right to left](https://github.com/microsoft/vscode/issues/153620)
+
 # TODO
 
 * ctrl-t to open new browser tab. I don't like to keep a state in my head. I am very used to open a new browser tab with ctrl-t. It should work in vscode, too.
