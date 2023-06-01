@@ -30,6 +30,12 @@ ctrl-shift-p "open recent" --> Open recent Workspace. This is better than "File 
 
 Jump from a method on an interface to the implementation: ctrl-F12 (or context-menu "Go to Implementations")
 
+# Command Palette
+
+There is no need to remember keyboard shortcuts for things you don't need often.
+
+For example maximising the terminal window. I use `ctrl-shift-p` (Command Palette) to search in all available actions. Then I type "max" and then I choose "View: Toggle Maximized Panel". You see the shortcut there. In this case it is ctrl-shift-j. But since I don't use it often, it is easier for me to use the Command Palette.
+
 # Search and Replace in one file
 
 ctrl-h and then enter the old and the new term.
