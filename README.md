@@ -291,6 +291,14 @@ My cursor is on the name of a method which implements an interface. I want to se
 
 Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). In Goland you have icons near the line-numbers to jump up/down. This could be improved. Related: https://github.com/golang/vscode-go/issues/2628
 
+# Merging two files
+
+You can merge two files with `code -d file1 file2`. This works, but if there are a lot of changes I prefer the tool [meld](https://meldmerge.org/).
+
+The tool meld repaints the new diff faster than vscode, and I somehow prefer the interface of meld.
+
+For small changes (like resolving small merge conflicts) I use vscode.
+
 # Introductions to Go 
 
 https://go.dev/tour/
