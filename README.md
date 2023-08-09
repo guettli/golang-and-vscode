@@ -289,8 +289,7 @@ Solving merge-conflicts in vscode: [No detailed diff is visible](https://stackov
 
 My cursor is on the name of a method which implements an interface. I want to see the docstring of this method of the interface. How to get to navigate to the method signature of the interface?
 
-Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). In Goland you have icons near the line-numbers to jump up/down. This could be improved. Related: https://github.com/golang/vscode-go/issues/2628
-
+Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). In Goland you have icons near the line-numbers to jump up/down. This could be improved. Related: https://github.com/golang/go/issues/56695
 # Merging two files
 
 You can merge two files with `code -d file1 file2`. This works, but if there are a lot of changes I prefer the tool [meld](https://meldmerge.org/).
