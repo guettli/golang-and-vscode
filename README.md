@@ -257,6 +257,7 @@ https://stackoverflow.com/questions/75071292/vscode-move-go-code-type-function-t
 
 https://www.reddit.com/r/vscode/comments/10e7aoj/middle_button_paste_on_linux_only_works_after/
 
+https://www.reddit.com/r/vscode/comments/15w6ici/altshift_left_go_back_places_get_recorded_too_fast/
 
 recently changed locations: https://stackoverflow.com/questions/72648730/recent-locations-in-vscode-like-in-intellij
 
