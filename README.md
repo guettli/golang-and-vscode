@@ -251,6 +251,8 @@ Mnemoric: "(j)ump" to the terminal.
 
 # Missing
 
+[From yaml to docs of GVK in vscode](https://www.reddit.com/r/kubernetes/comments/16nevya/from_yaml_to_docs_of_gvk_in_vscode/)
+
 https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code
 
 https://stackoverflow.com/questions/75071292/vscode-move-go-code-type-function-to-other-file
