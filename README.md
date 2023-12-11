@@ -174,6 +174,14 @@ The default of 1000 is not enough for some cases.
 
 Docs: https://code.visualstudio.com/docs/terminal/basics#_navigating-the-buffer
 
+## Sticky Scroll
+
+[Sticky Scroll](https://code.visualstudio.com/updates/v1_71#_sticky-scroll) needs to be enabled in the vscode settings. Don't ask me why this is not the default.
+
+With this feature you see the function name in the preview window of search results.
+
+[Screenshot](https://github.com/golang/vscode-go/issues/3083#issuecomment-1849491658)
+
 # Gopls
 Gopls is the Go language server which gets used by vscode, vim and most other editors.
 
