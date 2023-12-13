@@ -201,7 +201,7 @@ I can easily jump to the corresponding line in the file.
 in .bashrc:
 ```
 if [[ "$TERM_PROGRAM" == 'vscode' ]]; then
-  alias 'rg'='rg --no-heading --column'
+  alias 'rg'='rg --no-heading --column --hidden'
 fi
 ```
 
