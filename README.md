@@ -164,7 +164,7 @@ Add this to your settings.json:
 ```    
 Source: https://github.com/microsoft/vscode/issues/117150#issuecomment-782853808
 
-## 
+## Scrollback
 
 ```
     "terminal.integrated.scrollback": 10000,
@@ -181,6 +181,17 @@ Docs: https://code.visualstudio.com/docs/terminal/basics#_navigating-the-buffer
 With this feature you see the function name in the preview window of search results.
 
 [Screenshot](https://github.com/golang/vscode-go/issues/3083#issuecomment-1849491658)
+
+## gofumpt
+
+I integrate [gofumpt to vscode](https://github.com/mvdan/gofumpt/blob/master/README.md#visual-studio-code), since we check for gofumpt syntax in CI.
+
+```
+"gopls": {
+    ....
+	"formatting.gofumpt": true,
+},
+```
 
 # Gopls
 Gopls is the Go language server which gets used by vscode, vim and most other editors.
