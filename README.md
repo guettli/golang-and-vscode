@@ -193,6 +193,8 @@ I integrate [gofumpt to vscode](https://github.com/mvdan/gofumpt/blob/master/REA
 },
 ```
 
+After enabling this, you just need to type `ctrl-s` and the file is formatted with `gofumpt`.
+
 # Gopls
 Gopls is the Go language server which gets used by vscode, vim and most other editors.
 
