@@ -2,11 +2,9 @@
 
 ## My background
 
-I was born 1976 and I write software since I am 12 years old.
+In the year 2016 I switched from Emacs to PyCharm.
 
-Seven years ago (2016) I switched from Emacs to PyCharm.
-
-In 2022 I learned Go, which is now part of my daily work as Cloud Engineer at [Syself](https://syself.com/).
+In 2022 I learned Go, which is now part of my daily work at [Syself](https://syself.com/).
 
 Here are my notes which I wrote down while switching from an IntellJ based IDE to vscode.
 
@@ -34,7 +32,12 @@ Jump from a method on an interface to the implementation: ctrl-F12 (or context-m
 
 There is no need to remember keyboard shortcuts for things you don't need often.
 
-For example maximising the terminal window. I use `ctrl-shift-p` (Command Palette) to search in all available actions. Then I type "max" and then I choose "View: Toggle Maximized Panel". You see the shortcut there. In this case it is ctrl-shift-j. But since I don't use it often, it is easier for me to use the Command Palette.
+Things I open via `ctrl-shift-p`:
+
+* File: Open Recent... (opens recent Workspace)
+* File: Reveal Cctive File in Explorer View
+* Preferences: Open User Settings (JSON)
+* Toggle Line Comment (after selecting some lines)
 
 # Search and Replace in one file
 
@@ -52,19 +55,13 @@ If you want to undo your change, you need to press ESC first.
 
 Not perfect. If someone has a better solution, please let me know.
 
-Search in a sub-folder needs a special short-cut (in Intellij is is easier, since it the same like global search): alt+shift+f (Related: [sub-folder search in vscode](https://stackoverflow.com/questions/75831555/vscode-how-to-make-ctrl-shift-f-make-search-in-a-sub-directory-like-alt-shift))
-
 # Searching in a sub-directory
 
 If you select a directory in the tree-view, I see no easy way to search only in this sub-directory. Missing up to now. See https://stackoverflow.com/questions/75798947/vscode-search-in-sub-directory-only
 
-
-
 # Formatting
 
 ctrl-s --> format and clean file. For example you get `.../foo_test.go:24:2: imported and not used: "github.com/somerepo/somepkg"` since you removed the usage of "somepkg", then you don't need to move up to the import statements. Just hit ctrl-s.
-
-
 
 # Tests
 
@@ -94,11 +91,7 @@ alt-shift-CursorLeft/Right move to previous places
 
 f4 --> goto next search result (for example after a search with ctrl-shift-f): Related https://stackoverflow.com/questions/75161780/go-to-first-match-of-ctrl-shift-f-search
 
-
-
-
 go to beginning of a function: click on last element in breadcrumb-bar, then ENTER. Or use `ctrl-shift-. ENTER` to open breadcrumb bar. 
-
 
 "Go to Symbol in Workspace": ctrl-t. Not very useful, since it shows the symbols of all imported libraries. I usually don't find my code this way. A work-around is to use ctrl-shift-f `⎵Foo(`, if you want to search for all methods called "Foo". Related: https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code and https://github.com/golang/go/issues/37236 and https://www.reddit.com/r/golang/comments/119r6ec/vscode_how_to_search_for_all_methods_called_foo/
 
@@ -116,7 +109,9 @@ This feels uncomfortable. I would like to have the code on the same place on the
 
 I use the GitLens plugin.
 
-mark some lines in vscode and create a hyperlink to Github which highlight these lines via `ctrl-p "GitLens: Copy Remote File URL"`. 
+GitLens: Select some lines, then click on the GitLens Icon, then "File History" and "Line History" are handy.
+
+Mark some lines in vscode and create a hyperlink to Github which highlight these lines via `ctrl-p "GitLens: Copy Remote File URL"`. 
 Handy if you want to point someone to a part of a file.
 
 
@@ -132,13 +127,9 @@ Handy if you want to point someone to a part of a file.
 
 [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which.
 
-[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) This extension searches your workspace for comment tags like TODO and FIXME, and displays them in a tree view in the activity bar.
-
 [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff) Compare selected lines with the clipboard (and other features).
 
 [Shellcheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) a linter for Shell scripts.
-
-[Duplicated code](https://marketplace.visualstudio.com/items?itemName=paulomenezes.duplicated-code) uses [jscpd](https://github.com/kucherenko/jscpd).
 
 # settings.json
 
@@ -244,9 +235,6 @@ Example: run `make test`.
 
 Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
 
-Above setting did not remove all pop-ups. I disabled the GitLens plugin.
-
-
 # Support for Yaml/JSON: autocomplete
 
 I am editing a file called golangci.yaml.
@@ -279,6 +267,27 @@ By default there is no short-cut to show the terminal in fullscreen mode. `ctrl-
 You can customize your keyboard shortcuts (ctrl-p "keyb..."), and then search for "max panel" (View: Toggle Maximized Panel) and set the short-cut `ctrl-shift-j`.
 
 Mnemoric: "(j)ump" to the terminal.
+
+# Make some noise
+
+Sometimes I want to know when a long running command has finished. I have a small bash script which plays music via `ogg123`. I use it like this:
+
+```
+long-running-command; music
+```
+
+If I forget to start it like this this, then I use `ctrl-z` to halt the running process. Then I start the process aga in like this `fg; music`
+
+Example:
+
+```
+❯ sleep 100 
+^Z
+[1]+  Stopped                 sleep 100
+
+❯ fg; music
+sleep 100
+```
 
 # Missing
 
