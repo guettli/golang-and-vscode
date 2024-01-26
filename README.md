@@ -231,6 +231,8 @@ ctrl-ö --> "Go: Test function at Cursor or Test Previous"
 ctrl-r --> "Terminal: Run Recent Command". This is the same keybinding like searching backwards in the shell history :-)
 Example: run `make test`.
 
+vscode-terminal: PageUp/PageDown. I want to use PageUp/PageDown in the terminal without holding down the Shift key. Changing that is easy using the interactive short-cut settings. Unfortunately it is not that easy in the gnome-terminal (See [AskUbuntu](https://askubuntu.com/questions/1501363/how-to-scroll-up-down-in-terminal-with-pageup-pagedown)).
+
 ## GitLens
 
 Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
