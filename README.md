@@ -131,6 +131,8 @@ Handy if you want to point someone to a part of a file.
 
 [Shellcheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck) a linter for Shell scripts.
 
+[Shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) uses [shfmt](https://github.com/mvdan/sh)
+
 # settings.json
 
 ## Colors
