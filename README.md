@@ -341,7 +341,9 @@ Jump from method to corresponding interface which defines the methos signature: 
 
 You can merge two files with `code -d file1 file2`. This works, but if there are a lot of changes I prefer the tool [meld](https://meldmerge.org/).
 
-The tool meld repaints the new diff faster than vscode, and I somehow prefer the interface of meld.
+The tool meld repaints the new diff faster than vscode, and I somehow prefer the interface of meld. 
+
+Resolving merge-conflicts is way easier for me with the UI of meld.
 
 For small changes (like resolving small merge conflicts) I use vscode.
 
