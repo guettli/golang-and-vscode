@@ -199,6 +199,12 @@ Gopls is the Go language server which gets used by vscode, vim and most other ed
 
 --> if you click on an import line (for example `myname "github.com/foo/bar")`) you get to the code of "foo/bar" in vscode. Don't open the browser.  Related: [Don't Open Imports in the Browser](https://dominikbraun.io/blog/vs-code-go-dont-open-imports-in-browser/)
 
+# Exclude vendor directory
+
+If you use vendoring (I think it is better to not use it), then it is helpful to add `**/vendor` to `files.exclude in the settings.
+
+Then ctrl+p (open path) ignore files in the vendor directory.
+
 # ripgrep in vscode
 
 I want to use `rg` ([ripgrep](https://github.com/BurntSushi/ripgrep)) in a vscode terminal, and the matches should be hyperlinks, so that
