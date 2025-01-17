@@ -278,6 +278,11 @@ You can customize your keyboard shortcuts (ctrl-p "keyb..."), and then search fo
 
 Mnemoric: "(j)ump" to the terminal.
 
+Changing the tab width to `4` makes sense:
+
+```json
+    "terminal.integrated.tabStopWidth": 4,
+```
 # Make some noise
 
 Sometimes I want to know when a long running command has finished. I have a small bash script which plays music via `ogg123`. I use it like this:
