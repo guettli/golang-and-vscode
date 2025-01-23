@@ -241,6 +241,28 @@ Example: run `make test`.
 
 vscode-terminal: PageUp/PageDown. I want to use PageUp/PageDown in the terminal without holding down the Shift key. Changing that is easy using the interactive short-cut settings. Unfortunately it is not that easy in the gnome-terminal (See [AskUbuntu](https://askubuntu.com/questions/1501363/how-to-scroll-up-down-in-terminal-with-pageup-pagedown)).
 
+### vscode: Wrap long lines
+
+Imagine your team mates like long lines, and you do not. You can wrap long lines.
+
+I like this vsode setting: 
+
+```
+    "editor.rulers": [
+        100
+    ],
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "editor.wrappingIndent": "indent",
+```
+
+This shows a vertical ruler at `100`. It wraps at `100`, and it indents the wrapped line. 
+
+The code looks like having short lines, although they are long.
+
+We tried automatical tools like `golines`, but this did not really work.
+
+
 ## GitLens
 
 Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
