@@ -263,6 +263,11 @@ The code looks like having short lines, although they are long.
 We tried automatical tools like `golines`, but this did not really work.
 
 
+## vscode: Wrap text
+
+If you want to wrap text in a markdown file, the extension [Rewrap Revived](https://marketplace.visualstudio.com/items?itemName=dnut.rewrap-revived) is helpful.
+It re-wraps the text of a paragraph.
+
 ## GitLens
 
 Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
