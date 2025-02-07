@@ -268,6 +268,12 @@ We tried automatical tools like `golines`, but this did not really work.
 If you want to wrap text in a markdown file, the extension [Rewrap Revived](https://marketplace.visualstudio.com/items?itemName=dnut.rewrap-revived) is helpful.
 It re-wraps the text of a paragraph.
 
+## vscode: Select until
+
+I found no easy way to select multiple lines until a give string.
+
+The [Select Until](https://marketplace.visualstudio.com/items?itemName=Lebster.select-until) extension solves this.
+
 ## GitLens
 
 Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
