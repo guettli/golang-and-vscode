@@ -274,6 +274,18 @@ I found no easy way to select multiple lines until a give string.
 
 The [Select Until](https://marketplace.visualstudio.com/items?itemName=Lebster.select-until) extension solves this.
 
+## vscode: Tasks
+
+Sometimes I need to run a sequence of commands for testing. For example:
+
+```sh
+reset; make generate &&  make test-unit-foo && make verify && git status
+```
+
+I could switch to the vscode terminal and execute that line. But a more convenient way is to create a [Task](https://code.visualstudio.com/docs/editor/tasks).
+
+You can re-run the last task with "Tasks: Rerun last Task".
+
 ## GitLens
 
 Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
