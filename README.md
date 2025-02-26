@@ -286,9 +286,13 @@ I could switch to the vscode terminal and execute that line. But a more convenie
 
 You can re-run the last task with "Tasks: Rerun last Task".
 
-## GitLens
+## vscode: GitLens
 
 Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
+
+## vscode: Show uncommited changes
+
+ctrl-shift-g (like "git") or View/SourceControl.
 
 # Support for Yaml/JSON: autocomplete
 
