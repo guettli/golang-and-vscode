@@ -16,7 +16,7 @@ ctrl-` --> show/hide terminal.
 
 ctrl-space --> autocomplete (for example find the struct in a package and add the package name before the name) [docs](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-features)
 
-[Bookmark plugin](https://github.com/alefragnani/vscode-bookmarks): ctrl-alt-k (set bookmarks), ctrl-alt-j (jump to bookmarks, multiple times to jump to other bookmarks). You plan a short pair-programming session because you want to discuss some parts of the code? Be prepaired! Make bookmarks of the relevant parts of the code. 
+[Bookmark plugin](https://github.com/alefragnani/vscode-bookmarks): ctrl-alt-k (set bookmarks), ctrl-alt-j (jump to bookmarks, multiple times to jump to other bookmarks). You plan a short pair-programming session because you want to discuss some parts of the code? Be prepaired! Make bookmarks of the relevant parts of the code.
 
 You want to open a file from the terminal: `> code foo.go`
 
@@ -57,7 +57,7 @@ Not perfect. If someone has a better solution, please let me know.
 
 # Searching in a sub-directory
 
-If you select a directory in the tree-view, I see no easy way to search only in this sub-directory. Missing up to now. See https://stackoverflow.com/questions/75798947/vscode-search-in-sub-directory-only
+If you select a directory in the tree-view, I see no easy way to search only in this sub-directory. Missing up to now. See <https://stackoverflow.com/questions/75798947/vscode-search-in-sub-directory-only>
 
 # Formatting
 
@@ -75,35 +75,29 @@ If you have created a `cover.out` file, then you just need to use `Go: Toggle Te
 
 Missing up to now: A way to see which files has the most uncovered lines. [Question at Reddit](https://www.reddit.com/r/golang/comments/11gwuj2/how_to_see_which_lines_has_the_most_uncovered/)
 
-
 # Navigation
 
 "Go to file": ctrl+p
 
-
 ctrl-e --> switch between recently used files. Good if you want to swith to the previous file quickly. Otherwise I prefer ctrl-p
-
 
 ctrl-g --> goto line
 
-
 alt-shift-CursorLeft/Right move to previous places
 
-f4 --> goto next search result (for example after a search with ctrl-shift-f): Related https://stackoverflow.com/questions/75161780/go-to-first-match-of-ctrl-shift-f-search
+f4 --> goto next search result (for example after a search with ctrl-shift-f): Related <https://stackoverflow.com/questions/75161780/go-to-first-match-of-ctrl-shift-f-search>
 
-go to beginning of a function: click on last element in breadcrumb-bar, then ENTER. Or use `ctrl-shift-. ENTER` to open breadcrumb bar. 
+go to beginning of a function: click on last element in breadcrumb-bar, then ENTER. Or use `ctrl-shift-. ENTER` to open breadcrumb bar.
 
-"Go to Symbol in Workspace": ctrl-t. Not very useful, since it shows the symbols of all imported libraries. I usually don't find my code this way. A work-around is to use ctrl-shift-f `⎵Foo(`, if you want to search for all methods called "Foo". Related: https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code and https://github.com/golang/go/issues/37236 and https://www.reddit.com/r/golang/comments/119r6ec/vscode_how_to_search_for_all_methods_called_foo/
+"Go to Symbol in Workspace": ctrl-t. Not very useful, since it shows the symbols of all imported libraries. I usually don't find my code this way. A work-around is to use ctrl-shift-f `⎵Foo(`, if you want to search for all methods called "Foo". Related: <https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code> and <https://github.com/golang/go/issues/37236> and <https://www.reddit.com/r/golang/comments/119r6ec/vscode_how_to_search_for_all_methods_called_foo/>
 
 After a search the searched term is still highlighted. I use ctrl-b to hide the panel on the left side, which removes the highlighting. Maybe there is an alternative solution?
 
 # Move Primary Side Bar Right
 
-From time to time I use ctrl-b to hide the primary side bar, so that I have the full width for the code. With the default (Primary side bar on the left side), this make the code "jump" from the middle to the left side. 
+From time to time I use ctrl-b to hide the primary side bar, so that I have the full width for the code. With the default (Primary side bar on the left side), this make the code "jump" from the middle to the left side.
 
 This feels uncomfortable. I would like to have the code on the same place on the screen (with or without primary side bar).
-
-
 
 # Git
 
@@ -111,9 +105,8 @@ I use the GitLens plugin.
 
 GitLens: Select some lines, then click on the GitLens Icon, then "File History" and "Line History" are handy.
 
-Mark some lines in vscode and create a hyperlink to Github which highlight these lines via `ctrl-p "GitLens: Copy Remote File URL"`. 
+Mark some lines in vscode and create a hyperlink to Github which highlight these lines via `ctrl-p "GitLens: Copy Remote File URL"`.
 Handy if you want to point someone to a part of a file.
-
 
 # Plugins
 
@@ -145,17 +138,19 @@ I like to highlight the current line a bit more:
     },
 ```
 
-But highlighting is gone, if there is a selection: https://stackoverflow.com/questions/75582447/vscode-highlight-line-even-if-there-is-a-selection
+But highlighting is gone, if there is a selection: <https://stackoverflow.com/questions/75582447/vscode-highlight-line-even-if-there-is-a-selection>
 
 ## ctrl-b (hide side bar) should work in terminal, too
 
 Add this to your settings.json:
+
 ```
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.toggleSidebarVisibility"
     ]
-```    
-Source: https://github.com/microsoft/vscode/issues/117150#issuecomment-782853808
+```
+
+Source: <https://github.com/microsoft/vscode/issues/117150#issuecomment-782853808>
 
 ## Scrollback
 
@@ -165,7 +160,7 @@ Source: https://github.com/microsoft/vscode/issues/117150#issuecomment-782853808
 
 The default of 1000 is not enough for some cases.
 
-Docs: https://code.visualstudio.com/docs/terminal/basics#_navigating-the-buffer
+Docs: <https://code.visualstudio.com/docs/terminal/basics#_navigating-the-buffer>
 
 ## Sticky Scroll
 
@@ -182,13 +177,14 @@ I integrate [gofumpt to vscode](https://github.com/mvdan/gofumpt/blob/master/REA
 ```
 "gopls": {
     ....
-	"formatting.gofumpt": true,
+ "formatting.gofumpt": true,
 },
 ```
 
 After enabling this, you just need to type `ctrl-s` and the file is formatted with `gofumpt`.
 
 # Gopls
+
 Gopls is the Go language server which gets used by vscode, vim and most other editors.
 
 ```
@@ -211,6 +207,7 @@ I want to use `rg` ([ripgrep](https://github.com/BurntSushi/ripgrep)) in a vscod
 I can easily jump to the corresponding line in the file.
 
 in .bashrc:
+
 ```
 if [[ "$TERM_PROGRAM" == 'vscode' ]]; then
   alias 'rg'='rg --no-heading --column --hidden'
@@ -218,6 +215,7 @@ fi
 ```
 
 Then you get output like this:
+
 ```
 foo/bar.go:33:7: ... your term
 ```
@@ -245,7 +243,7 @@ vscode-terminal: PageUp/PageDown. I want to use PageUp/PageDown in the terminal 
 
 Imagine your team mates like long lines, and you do not. You can wrap long lines.
 
-I like this vsode setting: 
+I like this vsode setting:
 
 ```
     "editor.rulers": [
@@ -256,12 +254,11 @@ I like this vsode setting:
     "editor.wrappingIndent": "indent",
 ```
 
-This shows a vertical ruler at `100`. It wraps at `100`, and it indents the wrapped line. 
+This shows a vertical ruler at `100`. It wraps at `100`, and it indents the wrapped line.
 
 The code looks like having short lines, although they are long.
 
 We tried automatical tools like `golines`, but this did not really work.
-
 
 ## vscode: Wrap text
 
@@ -332,6 +329,7 @@ Changing the tab width to `4` makes sense:
 ```json
     "terminal.integrated.tabStopWidth": 4,
 ```
+
 # Make some noise
 
 Sometimes I want to know when a long running command has finished. I have a small bash script which plays music via `ogg123`. I use it like this:
@@ -345,7 +343,7 @@ If I forget to start it like this this, then I use `ctrl-z` to halt the running 
 Example:
 
 ```
-❯ sleep 100 
+❯ sleep 100
 ^Z
 [1]+  Stopped                 sleep 100
 
@@ -357,15 +355,15 @@ sleep 100
 
 [From yaml to docs of GVK in vscode](https://www.reddit.com/r/kubernetes/comments/16nevya/from_yaml_to_docs_of_gvk_in_vscode/)
 
-https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code
+<https://stackoverflow.com/questions/75085670/vscode-symbol-search-but-only-in-my-code>
 
-https://stackoverflow.com/questions/75071292/vscode-move-go-code-type-function-to-other-file
+<https://stackoverflow.com/questions/75071292/vscode-move-go-code-type-function-to-other-file>
 
-https://www.reddit.com/r/vscode/comments/10e7aoj/middle_button_paste_on_linux_only_works_after/
+<https://www.reddit.com/r/vscode/comments/10e7aoj/middle_button_paste_on_linux_only_works_after/>
 
-https://www.reddit.com/r/vscode/comments/15w6ici/altshift_left_go_back_places_get_recorded_too_fast/
+<https://www.reddit.com/r/vscode/comments/15w6ici/altshift_left_go_back_places_get_recorded_too_fast/>
 
-recently changed locations: https://stackoverflow.com/questions/72648730/recent-locations-in-vscode-like-in-intellij
+recently changed locations: <https://stackoverflow.com/questions/72648730/recent-locations-in-vscode-like-in-intellij>
 
 Nice color theme. Overall vscode is a bit too colorful.
 
@@ -374,19 +372,15 @@ Developing Go code means working with generated files in most cases. It would be
 From method signature of an interface: Show all methods which implement this signature. At the moment clicking on the signature shows all places where this method gets used. But I am often looking for the list of implementations.
 
 Floating windows (like detach terminal into a second window) is not possible. See [#10121](https://github.com/microsoft/vscode/issues/10121)
-Now my favorite setup (one display for the code, one display for the output of the tests) is not possible: https://stackoverflow.com/questions/75592496/show-output-of-test-on-second-monitor
+Now my favorite setup (one display for the code, one display for the output of the tests) is not possible: <https://stackoverflow.com/questions/75592496/show-output-of-test-on-second-monitor>
 
 Unused variables are underlined with red color. This is confusing, since while you write code, it looks like there is an error. But there is no error, you just have not written the next line yet. I am happy that other agree see [#2285](https://github.com/golang/vscode-go/issues/2285).
 
-Copy+Paste does not work in the git-diff view of deleted lines: https://github.com/microsoft/vscode/issues/8226
+Copy+Paste does not work in the git-diff view of deleted lines: <https://github.com/microsoft/vscode/issues/8226>
 
-I would like to have a better visual differentiation between my code and code from third party packages. https://stackoverflow.com/questions/75181580/higlight-files-which-are-not-from-my-repository
+I would like to have a better visual differentiation between my code and code from third party packages. <https://stackoverflow.com/questions/75181580/higlight-files-which-are-not-from-my-repository>
 
 Navigation in packages outside the current workspace does not work. I can open the Go file, but symbols which are outside the current file are not known. This means vscode underlines them with red color and ctrl-click does not work :-(
-
-Solving merge-conflicts in vscode: [No detailed diff is visible](https://stackoverflow.com/questions/75888480/vscode-no-detailed-diff-while-merging)
-
-[Allow merging from right to left](https://github.com/microsoft/vscode/issues/153620)
 
 # TODO
 
@@ -396,25 +390,21 @@ Solving merge-conflicts in vscode: [No detailed diff is visible](https://stackov
 
 My cursor is on the name of a method which implements an interface. I want to see the docstring of this method of the interface. How to get to navigate to the method signature of the interface?
 
-Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). In Goland you have icons near the line-numbers to jump up/down. This could be improved. Related: https://github.com/golang/go/issues/56695
+Jump from method to corresponding interface which defines the methos signature: ctrl-shift-p "Find All Implementations", then F4 (jump to first match of the search result). In Goland you have icons near the line-numbers to jump up/down. This could be improved. Related: <https://github.com/golang/go/issues/56695>
+
 # Merging two files
 
 You can merge two files with `code -d file1 file2`. This works, but if there are a lot of changes I prefer the tool [meld](https://meldmerge.org/).
 
-The tool meld repaints the new diff faster than vscode, and I somehow prefer the interface of meld. 
+I wrote about merging with `meld`: [guettli/git-tips](https://github.com/guettli/git-tips/blob/main/README.md#solving-conflicts-with-meld)
 
-Resolving merge-conflicts is way easier for me with the UI of meld.
+# Introductions to Go
 
-For small changes (like resolving small merge conflicts) I use vscode.
+<https://go.dev/tour/>
 
-# Introductions to Go 
+<https://gobyexample.com/>
 
-https://go.dev/tour/
-
-https://gobyexample.com/
-
-https://quii.gitbook.io/learn-go-with-tests
-
+<https://quii.gitbook.io/learn-go-with-tests>
 
 # Related
 
@@ -426,4 +416,3 @@ https://quii.gitbook.io/learn-go-with-tests
 # Feedback
 
 I love feedback and I love to hear from you. Just create an issue and tell me what's on your mind.
-
