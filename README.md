@@ -260,6 +260,8 @@ The code looks like having short lines, although they are long.
 
 We tried automatical tools like `golines`, but this did not really work.
 
+If you want to disable that, so that the lines does not get wrapped, use `alt-z`.
+
 ## vscode: Wrap text
 
 If you want to wrap text in a markdown file, the extension [Rewrap Revived](https://marketplace.visualstudio.com/items?itemName=dnut.rewrap-revived) is helpful.
