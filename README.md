@@ -183,6 +183,14 @@ I integrate [gofumpt to vscode](https://github.com/mvdan/gofumpt/blob/master/REA
 
 After enabling this, you just need to type `ctrl-s` and the file is formatted with `gofumpt`.
 
+# Golang-ci Lint
+
+[.golangci.yaml](https://github.com/guettli/watchall/blob/main/.golangci.yaml)
+
+I enable all, then disable some.
+
+Additionally, I enable `errcheck`.
+
 # Gopls
 
 Gopls is the Go language server which gets used by vscode, vim and most other editors.
