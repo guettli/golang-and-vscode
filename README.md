@@ -101,18 +101,11 @@ This feels uncomfortable. I would like to have the code on the same place on the
 
 # Git
 
-I use the GitLens plugin.
-
-GitLens: Select some lines, then click on the GitLens Icon, then "File History" and "Line History" are handy.
-
-Mark some lines in vscode and create a hyperlink to Github which highlight these lines via `ctrl-p "GitLens: Copy Remote File URL"`.
-Handy if you want to point someone to a part of a file.
+I no longer use the GitLens plugin. The wanted me to buy their product again and again. I uninstalled it, and do not miss it.
 
 # Plugins
 
 [Go](https://marketplace.visualstudio.com/items?itemName=golang.go) Official Plugin, provided by the Go team at Google.
-
-[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) I don't use it for clone/switch/commit/push, but I use it for comparing the corrent code with the previous state. See [Revision Navigation](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens#revision-navigation). [Be sure to disable the distracting popUps](https://stackoverflow.com/a/58039473/633961). It is a bit like "Git History for Selection" in Intellij.
 
 [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) YAML Language Support by Red Hat, with built-in Kubernetes syntax support (uses [prettier](https://prettier.io/) under the hood).
 
@@ -293,10 +286,6 @@ I could switch to the vscode terminal and execute that line. But a more convenie
 
 You can re-run the last task with "Tasks: Rerun last Task".
 
-## vscode: GitLens
-
-Disable `gitlens.currentLine.enabled`. Especially the popup on hover makes too much noise.
-
 ## vscode: Show uncommited changes
 
 ctrl-shift-g (like "git") or View/SourceControl.
@@ -312,6 +301,17 @@ Some for Kubernetes YAML files: Autocomplete and documentation via hover.
 That's magic und very helpful.
 
 Vscode uses [json schema](https://json-schema.org/) for this magic.
+
+## vsode: Search and Replace in one directory
+
+If you want to search and replace (ctrl-h) only in one sub-directory, then it is handy to just start vscode for that directory:
+
+```console
+code my-sub-dir
+```
+
+Of course you can use ctrl-h and then filter with "files to include", but if you are in the terminal and have the directory name near, you then starting
+a second vscode might be more convenient.
 
 # Terminal
 
