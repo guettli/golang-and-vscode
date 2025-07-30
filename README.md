@@ -107,6 +107,8 @@ I no longer use the GitLens plugin. The wanted me to buy their product again and
 
 [Go](https://marketplace.visualstudio.com/items?itemName=golang.go) Official Plugin, provided by the Go team at Google.
 
+[GoGo CodeLens](https://marketplace.visualstudio.com/items?itemName=xiaoxuxxxx.gogo-codelens) shows links to the implementations of methods of interfaces.
+
 [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) YAML Language Support by Red Hat, with built-in Kubernetes syntax support (uses [prettier](https://prettier.io/) under the hood).
 
 [Highlight Files](https://marketplace.visualstudio.com/items?itemName=ArturoDent.highlight-files) I want to see immediately if a file is outside my workspace. This plugin changes the color of the tab of a file. You add a badge to the tab, too. I use the camping unicode symbol: 🏕. Related [StackOverflow question](https://stackoverflow.com/questions/75244211/vscode-search-in-a-directory-which-is-outside-the-workspace).
