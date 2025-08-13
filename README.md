@@ -38,6 +38,7 @@ Things I open via `ctrl-shift-p`:
 * File: Reveal Cctive File in Explorer View
 * Preferences: Open User Settings (JSON)
 * Toggle Line Comment (after selecting some lines)
+* File: Copy Relative Path of Active File (via "copy rel")
 
 # Search and Replace in one file
 
