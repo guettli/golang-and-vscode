@@ -104,6 +104,16 @@ This feels uncomfortable. I would like to have the code on the same place on the
 
 I no longer use the GitLens plugin. The wanted me to buy their product again and again. I uninstalled it, and do not miss it.
 
+# Color Theme per Workspace:
+
+Just add  `.vscode/settings.json`. Example:
+
+```json
+{
+  "workbench.colorTheme": "Monokai Dimmed"
+}
+```
+
 # Plugins
 
 [Go](https://marketplace.visualstudio.com/items?itemName=golang.go) Official Plugin, provided by the Go team at Google.
