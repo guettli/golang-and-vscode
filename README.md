@@ -176,6 +176,16 @@ With this feature you see the function name in the preview window of search resu
 
 [Screenshot](https://github.com/golang/vscode-go/issues/3083#issuecomment-1849491658)
 
+## Auto Save
+
+```
+    "files.autoSave": "afterDelay",
+```
+
+Files get saved automatically after a short delay (default: 1000 ms, see `files.autoSaveDelay`). No more forgotten ctrl-s before running a test in the terminal.
+
+Docs: <https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save>
+
 ## gofumpt
 
 I integrate [gofumpt to vscode](https://github.com/mvdan/gofumpt/blob/master/README.md#visual-studio-code), since we check for gofumpt syntax in CI.
